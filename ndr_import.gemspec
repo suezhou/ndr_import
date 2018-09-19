@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'pdf-reader', '1.2.0' # Raises warnings on Ruby 2.4+
   spec.add_dependency 'msworddoc-extractor', '0.2.0'
 
-  spec.required_ruby_version = '>= 2.2'
+  spec.required_ruby_version = '>= 2.4'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
